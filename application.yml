@@ -1,22 +1,19 @@
 spring:
   profiles:
-    active:
-      - dev
-
----
-
-spring:
-  profiles:
     active: dev
-  application:
-    name: config-dev
-    
+
 ---
 
 spring:
-  profiles:
-    active: test
+  profiles: dev
+  application:
+      name: config-dev
+
+---
+
+spring:
+  profiles: test
   application:
     name: config-test
-    
+
 #以UTF-8形式保存
