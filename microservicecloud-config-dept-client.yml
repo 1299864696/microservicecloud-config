@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: cloud-dept
   profiles:
     active: dev
 
